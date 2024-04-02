@@ -7,6 +7,7 @@ int b=0,d=0,w=0;
 void main()
 {
 int f;
+printf("\n\n****WELCOME TO BANKING SYSTEM****\n\n");
 do{printf("\n\n[1]-Withdraw\n[2]-Deposit\n[3]-Check Balance\n[4]-Exit\n");
 printf("Choose function: ");
 scanf("%d",&f);
