@@ -1,0 +1,39 @@
+body {
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(to right, #e2e3e9, #a7a7a7);
+}
+
+.container{
+    text-align: center;
+    position: absolute;
+    inset-block-start: 50%;
+    inset-inline-start: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#canvas{
+    inline-size: 500px;
+    block-size: 500px;
+    border: 5px solid rgb(14, 11, 11);
+    background-color: rgb(132, 143, 132);
+    border-radius: 10px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#canvas div {
+    inline-size: 164px;
+    block-size: 164px;
+    border: 1px solid rgb(0, 0, 0);
+
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
