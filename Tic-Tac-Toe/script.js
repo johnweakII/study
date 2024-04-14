@@ -12,11 +12,6 @@ window.onload = function() {
     startGame();
 }
 
-function startGame()
-{
-document.getElementById("score-count").innerText = score;
-}
-
 function startGame() {
 
     for (let r = 0; r < rows; r++) {
@@ -86,7 +81,7 @@ if(p1 == document.getElementById("0-0").innerText &&
  p1 == document.getElementById("0-2").innerText &&     
  p1 == document.getElementById("1-1").innerText  &&    
  p1 == document.getElementById("2-0").innerText) {
-    document.getElementById("gamewinner").innerText = "O wins";
+    document.getElementById("gamewinner").innerText = "PLAYER 1 WINS!";
     gameOver = true;
     return 0;
 }
@@ -115,7 +110,7 @@ if(p2 == document.getElementById("0-0").innerText &&
  p2 == document.getElementById("0-2").innerText &&     
  p2 == document.getElementById("1-1").innerText  &&    
  p2 == document.getElementById("2-0").innerText) {
-    document.getElementById("gamewinner").innerText = "X wins";
+    document.getElementById("gamewinner").innerText = "PLAYER 2 WINS!";
     gameOver = true;
     return 0;
 }

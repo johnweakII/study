@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light:400'); 
 body {
     margin: 0 auto;
     font-weight: bold;
     text-align: center;
-    background: linear-gradient(to right, #e2e3e9, #a7a7a7);
+    background: linear-gradient(to right, #e2e3e9, #4e4d4d);
+    overflow: hidden;
+    background-image: url(tictac.jpg);
+}
+
+.container h1{
+    font-family: "Shadows Into Light";
+    font-size: 40px;
 }
 
 .container{
@@ -14,11 +22,13 @@ body {
 }
 
 #canvas{
-    inline-size: 500px;
-    block-size: 500px;
-    border: 5px solid rgb(14, 11, 11);
-    background-color: rgb(132, 143, 132);
+    inline-size: 250px;
+    block-size: 250px;
+    border: 40px solid rgb(226, 116, 116);
+    background-color: rgb(23, 85, 23);
     border-radius: 10px;
+    border-style:groove ;
+    cursor: pointer;
 
     margin: 0 auto;
     display: flex;
@@ -26,14 +36,24 @@ body {
 }
 
 #canvas div {
-    inline-size: 164px;
-    block-size: 164px;
-    border: 1px solid rgb(0, 0, 0);
+    inline-size: 81.3px;
+    block-size: 81.3px;
+    border: 1px solid rgb(255, 255, 255);
 
     font-size: 30px;
+    font-family: "Shadows Into Light";
+    color:white;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.players{
+    margin: 0;
+    font-size: 30px;
+    font-family: "Shadows Into Light";
+    color: rgb(255, 247, 3);
+
 }
 
 
